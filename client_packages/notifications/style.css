@@ -1,0 +1,96 @@
+dark-primary-color    { background: #616161; }
+default-primary-color { background: #9E9E9E; }
+light-primary-color   { background: #F5F5F5; }
+text-primary-color    { color: #212121; }
+accent-color          { background: #607d8b; }
+primary-text-color    { color: #212121; }
+secondary-text-color  { color: #757575; }
+divider-color         { border-color: #BDBDBD; }
+
+new-color-palette {background: #231F20;}
+new-color-palette {background: #BB4430;}
+new-color-palette {background: #EFE6DD;}
+new-color-palette {background: #7EBDC2;}
+new-color-palette {background: #F3DFA2;}
+
+@font-face {
+  font-family: MonstreatREGULAR;
+  src: url(./Fonts/MontserratRegular.ttf);
+}
+
+@font-face {
+  font-family: MonstreatMEDIUM;
+  src: url(./Fonts/MontserratMedium.ttf);
+}
+
+@font-face {
+  font-family: MonstreatLIGHT;
+  src: url(./Fonts/Montserrat-Light.ttf);
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  /*background: radial-gradient(rgba(209, 65, 65, 0), rgb(97, 97, 97));*/
+}
+
+
+.NotifyContainer{
+  position: fixed;
+  bottom: 3vh;
+  left: 30vw;
+  width: 40vw;
+  height: 7vh;
+  transition: 0.5s;
+}
+
+.NotifyBG{
+  background-color: rgb(35, 31, 32, 0.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 2vh;
+}
+
+.NotifyTEXT{
+  position: relative;
+  text-align: center;
+  font-family: MonstreatREGULAR;
+  font-size: calc(100% + 30%);
+  color: #EFE6DD;
+}
+
+.NotifyTEXTs{
+  position: relative;
+  top: 0vh;
+  text-align: center;
+  font-family: MonstreatREGULAR;
+  font-size: 2vh;
+  color: #F3DFA2;
+}
+
+.NotifyContainer{
+  transition: 0.5s;
+}
+
+.LISTOFTXST{
+  position: relative;
+  left: 32.5vw;
+  height: 30vh;
+  overflow: hidden;
+  list-style: none;
+}
+
+.NotifS{
+  text-align: center;
+  font-family: MonstreatREGULAR;
+  font-size: calc(100% + 30%);
+  color: #EFE6DD;
+  background-color: #212121;
+  width: 35vw;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 1vh;
+}

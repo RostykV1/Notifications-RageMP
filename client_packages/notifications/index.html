@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <ul id="myList" class="LISTOFTXST">
+    <!--INNER FIELD FOR LI-->
+  </ul>
+
+</body>
+<script>
+function NotifyArray(InnerNotifyText) {
+  let list = document.getElementById("myList");
+  let li = document.createElement("li");
+
+  list.appendChild(li)
+  li.className = "NotifS";
+  li.innerText = InnerNotifyText;
+
+  setTimeout(function(){
+    li.remove()
+  }, 5000)
+}
+
+
+</script>
+</html>
